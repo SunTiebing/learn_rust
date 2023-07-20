@@ -1,0 +1,2 @@
+[workspace]
+members = ["thread_pool", "minigrep", "hello_cargo", "guessing_game", "rust_async"]
