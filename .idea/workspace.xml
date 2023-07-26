@@ -3,8 +3,19 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4721b151-04d5-4af9-9e91-1d987323af31" name="Changes" comment="initialize the project" />
+    <list default="true" id="4721b151-04d5-4af9-9e91-1d987323af31" name="Changes" comment="add homework three example">
+      <change afterPath="$PROJECT_DIR$/rust_course/src/course_four/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rust_course/src/course_four/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rust_course/src/course_four/vec_enum.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rust_course/src/course_four/vec_trait.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn_rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn_rust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rust_course/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rust_course/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +27,18 @@
       <option value="module" />
     </option>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="hc8cftsw" />
@@ -43,18 +64,52 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/suntiebing/project/rust/learn_rust",
+    "last_opened_file_path": "/Users/suntiebing/project/rust/personal/learn_rust/rust_course/src/course_four",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rust_course/src/course_four" />
+      <recent name="$PROJECT_DIR$/rust_course/src" />
+      <recent name="$PROJECT_DIR$/rust_course/src/course_two" />
+      <recent name="$PROJECT_DIR$/rust_course/src/course_three" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Run rust_course" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package rust_course --bin rust_course" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run rust_course" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="RustProjectSettings">
-    <option name="version" value="2" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,6 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689843595049</updated>
       <workItem from="1689843596122" duration="194000" />
+      <workItem from="1689843844507" duration="14711000" />
+      <workItem from="1690361199190" duration="1706000" />
     </task>
     <task id="LOCAL-00001" summary="initialize the project">
       <created>1689843721965</created>
@@ -73,7 +130,35 @@
       <option name="project" value="LOCAL" />
       <updated>1689843721965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initialize the project">
+      <created>1689843905415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689843905415</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add homework one">
+      <created>1689951692142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689951692142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add homework two and three">
+      <created>1690018408964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690018408964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add homework three example">
+      <created>1690019008777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690019008777</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +166,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize the project" />
+    <MESSAGE value="add homework one" />
+    <MESSAGE value="add homework two and three" />
+    <MESSAGE value="add homework three example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework three example" />
   </component>
 </project>
